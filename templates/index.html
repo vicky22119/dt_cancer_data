@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breast Cancer</title>
+</head>
+<body style="background-color: rgb(187, 223, 129);"></body>
+
+
+    <h1>Welcome To The Breast Cancer Prediction</h1>
+    <form method="POST" action="\predictioncancer">
+
+        <label>Mean_Radius:</label>
+        <input type = "text" name = "mean_radius">
+        </select>
+
+
+        <label>Mean_Texture:</label>
+        <input type = "text" name = "mean_texture">
+        </select>
+
+        <label>Mean_Perimeter:</label>
+        <input type = "text" name = "mean_perimeter">
+        </select>
+
+        <label>Mean_Area:</label>
+        <input type = "text" name = "mean_area">
+        </select>
+
+        <br>
+        <br>
+
+        <label>Mean_Smoothness:</label>
+        <input type = "text" name = "mean_smoothness">
+        </select>
+
+        <label>Mean_Compactness:</label>
+        <input type = "text" name = "mean_compactness">
+        </select>
+
+        
+        <label>Mean_Concavity:</label>
+        <input type = "text" name = "mean_concavity">
+        </select>
+
+        
+        <label>Mean_Concave_Points:</label>
+        <input type = "text" name = "mean_concave_points">
+        </select>
+        <br>
+        <br>
+
+        <label>Mean_Symmetry:</label>
+        <input type = "text" name = "mean_symmetry">
+        </select>
+
+        
+        <label>Mean_Fractal_Dimension:</label>
+        <input type = "text" name = "mean_fractal_dimension">
+        </select>
+
+        
+        <label>Radius_Error:</label>
+        <input type = "text" name = "radius_error">
+        </select>
+        
+
+        <label>Texture_Error:</label>
+        <input type = "text" name = "texture_error">
+        </select>
+
+        <br>
+        <br>
+        <label>Perimeter_Error:</label>
+        <input type = "text" name = "perimeter_error">
+        </select>
+
+        
+        <label>Area_Error:</label>
+        <input type = "text" name = "area_error">
+        </select>
+        
+        
+        <label>Smoothness_Error:</label>
+        <input type = "text" name = "smoothness_error">
+        </select>
+
+        
+        <label>Compactness_Error:</label>
+        <input type = "text" name = "compactness_error">
+        </select>
+        <br>
+        <br>
+    
+        <label>Concavity_Error:</label>
+        <input type = "text" name = "concavity_error">
+        </select>
+
+        
+        <label>Concave_Points_Error:</label>
+        <input type = "text" name = "concave_points_error">
+        </select>
+
+        
+        <label>Symmetry_Error:</label>
+        <input type = "text" name = "symmetry_error">
+        </select>
+
+    
+        <label>Fractal_Dimension_Error:</label>
+        <input type = "text" name = "fractal_dimension_error">
+        </select>
+        <br>
+        <br>
+        
+        <label>Worst_Radius:</label>
+        <input type = "text" name = "worst_radius">
+        </select>
+        
+        
+        <label>Worst_Texture:</label>
+        <input type = "text" name = "worst_texture">
+        </select>
+
+        
+        <label>Worst_Perimeter:</label>
+        <input type = "text" name = "worst_perimeter">
+        </select>
+
+        
+        <label>Worst_Area:</label>
+        <input type = "text" name = "worst_area">
+        </select>
+
+        <br>
+        <br>
+        <label>Worst_Smoothness:</label>
+        <input type = "text" name = "worst_smoothness">
+        </select>
+
+        
+        <label>Worst_Compactness:</label>
+        <input type = "text" name = "worst_compactness">
+        </select>
+
+        <label>Worst_Concavity:</label>
+        <input type = "text" name = "worst_concavity">
+        </select>
+
+        
+        <label>Worst_Concave_Points:</label>
+        <input type = "text" name = "worst_concave_points">
+        </select>
+
+        <br>
+        <br>
+        <label>Worst_Symmetry:</label>
+        <input type = "text" name = "worst_symmetry">
+        </select>
+
+        
+        <label>Worst_Fractal_Dimension:</label>
+        <input type = "text" name = "worst_fractal_dimension">
+        </select>
+
+
+
+
+        
+        <br>
+        <br>
+
+        <input type = "submit" value="SUBMIT">
+
+        <br>
+
+        <p>Breast Cancer Result::<b> {{ prediction }} </b></p>
+
+
+    </form>
+
+
+</body>
+</html>
